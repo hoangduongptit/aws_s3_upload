@@ -15,6 +15,7 @@ AwsS3.uploadFile(
   file: File("path_to_file"),
   bucket: "bucket_name",
   region: "us-east-2",
+  acl: ACL.private, //important
   metadata: {"test": "test"} // optional
 );
 ```
